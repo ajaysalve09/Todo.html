@@ -1,5 +1,4 @@
-# Create a To-Do List HTML file
-todo_html_content = """<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -270,11 +269,3 @@ todo_html_content = """<!DOCTYPE html>
     </script>
 </body>
 </html>
-"""
-
-# Save the HTML content to a file
-file_path = "/mnt/data/todo.html"
-with open(file_path, "w") as file:
-    file.write(todo_html_content)
-
-file_path
